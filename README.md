@@ -26,3 +26,9 @@ make list-defconfigs
 <div align="center">
   <img src="https://github.com/vinhdevED/buildroot-raspberrypi4/blob/main/Image/list-config.png" alt="Buildroot Configuration" width="900"/>
 </div> 
+
+I apply default setting for Raspberry Pi 4 (64 bit), just type 
+
+```
+make raspberrypi4_64_defconfig
+```
