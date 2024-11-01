@@ -13,7 +13,7 @@ Buildroot is a generic build system hence in order to build Linux for Raspberry 
 make menuconfig
 ```
 <div align="center">
-  <img src="https://github.com/vinhdevED/buildroot-raspberrypi4/blob/main/Image/buildroot_config.png" alt="Buildroot Configuration" width="1000"/>
+  <img src="https://github.com/vinhdevED/buildroot-raspberrypi4/blob/main/Image/buildroot_config.png" alt="Buildroot Configuration" width="800"/>
 </div> 
 
 This will allow you to configure the buildroot for your target architecture. By going through each submenu, you can choose suitable option which you want.
@@ -21,4 +21,14 @@ But in this time, I use an alternative config from Buildroot. It provides config
 
 ```
 make list-defconfigs
+```
+
+<div align="center">
+  <img src="https://github.com/vinhdevED/buildroot-raspberrypi4/blob/main/Image/list-config.png" alt="Buildroot Configuration" width="800"/>
+</div> 
+
+I apply default setting for Raspberry Pi 4 (64 bit), just type 
+
+```
+make raspberrypi4_64_defconfig
 ```
