@@ -47,3 +47,7 @@ The output folder will be generated which contains some important file.
 <div align="center">
   <img src="https://github.com/vinhdevED/buildroot-raspberrypi4/blob/main/Image/output_folder.png" width="800"/>
 </div> 
+Next, I put file wpa_supplicant.conf into this path output/usr/etc/ to enable Wireless Connection.
+And make again !!! 
+
+# Booting Result
